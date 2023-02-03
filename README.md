@@ -12,3 +12,4 @@
 
 * [Augists](https://augists.top) - Life Sharing & Ideas in Coding
 * [QMMMS](https://qmmms.github.io) - 赛博升哥
+* [摆烂基地](https://blog.lrdhappy.com/) - 有无大佬带我做项目
