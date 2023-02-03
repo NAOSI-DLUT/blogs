@@ -1,6 +1,6 @@
 # Blogs
 
-> Blogs URL Collection shared by members
+> Blog URL Collection shared by members
 >
 > Example:
 >
