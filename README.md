@@ -18,6 +18,7 @@
 * [无尘车间](https://dawncraft.cc/) - 向大佬们学习!
 * [VIISAUS](https://joviisaus.github.io) - 可能以后要做图形学方向的大四考研🐶一枚
 * [lxwx的备忘录](https://www.lxtend.com) - 真就是个备忘录 [头像](https://pic.lrdhappy.com/i/2023/10/15/652ac00ddafc3.webp)<!--找不到原图了，先拿lrd的图床顶一下-->
+* [For1moc](http://forimoc.me/) - fdu/cs/secsys
 
 ## Recommended Reference
 
