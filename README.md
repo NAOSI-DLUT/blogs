@@ -16,6 +16,7 @@
 * [Beautyyu 言醴](https://blog.beautyyu.one/) - 积极换主题，从来不写文
 * [睡觉型学渣](http://constfrost.com/) - 随意加友链~ [头像(如果有必要)](https://lrd12345.oss-cn-beijing.aliyuncs.com/img/D95F9FAB3C948E6C5D5AAE4F3E3E2E5E.jpg)
 * [无尘车间](https://dawncraft.cc/) - 向大佬们学习!
+* [lxwx的备忘录](https://www.lxtend.com) - 真就是个备忘录 [头像](https://pic.lrdhappy.com/i/2023/10/15/652ac00ddafc3.webp)<!--找不到原图了，先拿lrd的图床顶一下-->
 
 ## Recommended Reference
 
