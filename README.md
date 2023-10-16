@@ -16,6 +16,7 @@
 * [Beautyyu 言醴](https://blog.beautyyu.one/) - 积极换主题，从来不写文
 * [睡觉型学渣](http://constfrost.com/) - 随意加友链~ [头像(如果有必要)](https://lrd12345.oss-cn-beijing.aliyuncs.com/img/D95F9FAB3C948E6C5D5AAE4F3E3E2E5E.jpg)
 * [无尘车间](https://dawncraft.cc/) - 向大佬们学习!
+* [VIISAUS](https://joviisaus.github.io) - 可能以后要做图形学方向的大四考研🐶一枚
 
 ## Recommended Reference
 
