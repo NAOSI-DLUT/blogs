@@ -1,7 +1,7 @@
 ---
 title: VIISAUS
-link: https://joviisaus.github.io
-description: 可能以后要做图形学方向的大四考研 🐶 一枚
-# rss:
-# avatar:
+link: https://www.viisaus.tech
+description: DUT 研🐶日记
+rss: https://www.viisaus.tech/atom.xml
+avatar: https://viisaus.tech/image/header.png
 ---
