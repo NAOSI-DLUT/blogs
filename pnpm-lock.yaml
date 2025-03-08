@@ -11,6 +11,9 @@ importers:
       astro:
         specifier: ^5.4.2
         version: 5.4.2(jiti@2.4.2)(rollup@4.35.0)(typescript@5.8.2)
+      sharp:
+        specifier: ^0.33.5
+        version: 0.33.5
     devDependencies:
       '@unocss/reset':
         specifier: 66.1.0-beta.3
@@ -2522,22 +2525,18 @@ snapshots:
   color-convert@2.0.1:
     dependencies:
       color-name: 1.1.4
-    optional: true
 
-  color-name@1.1.4:
-    optional: true
+  color-name@1.1.4: {}
 
   color-string@1.9.1:
     dependencies:
       color-name: 1.1.4
       simple-swizzle: 0.2.2
-    optional: true
 
   color@4.2.3:
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
-    optional: true
 
   colorette@2.0.20: {}
 
@@ -2582,8 +2581,7 @@ snapshots:
 
   destr@2.0.3: {}
 
-  detect-libc@2.0.3:
-    optional: true
+  detect-libc@2.0.3: {}
 
   deterministic-object-hash@2.0.2:
     dependencies:
@@ -2807,8 +2805,7 @@ snapshots:
 
   iron-webcrypto@1.2.1: {}
 
-  is-arrayish@0.3.2:
-    optional: true
+  is-arrayish@0.3.2: {}
 
   is-binary-path@2.1.0:
     dependencies:
@@ -3496,7 +3493,6 @@ snapshots:
       '@img/sharp-wasm32': 0.33.5
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
-    optional: true
 
   shiki@1.29.2:
     dependencies:
@@ -3512,7 +3508,6 @@ snapshots:
   simple-swizzle@0.2.2:
     dependencies:
       is-arrayish: 0.3.2
-    optional: true
 
   sirv@3.0.1:
     dependencies:
