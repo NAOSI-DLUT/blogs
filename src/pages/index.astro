@@ -1,0 +1,53 @@
+---
+import { Image } from "astro:assets";
+import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+import NAOSI from "../assets/naosi.svg";
+
+const blogroll = await getCollection("blogroll");
+---
+
+<Layout>
+  <div class="p-4 prose mx-auto max-w-4xl">
+    <h1 class="flex items-baseline gap-x-2">
+      <Image class="inline w-3.5em" src={NAOSI} alt="naosi" /> Blogroll
+    </h1>
+    <p>
+      收集大工人们的博客友链！当前已收录 {blogroll.length} 个博客。欢迎<a
+        href="https://github.com/NAOSI-DLUT/blogroll">提交博客</a
+      >！
+    </p>
+    <p>
+      订阅 <a href="/opml.xml">opml.xml</a>
+    </p>
+    <div class="md:columns-2">
+      {
+        blogroll.map(async (blog) => {
+          const { Content } = await blog.render();
+          return (
+            <div class="not-first:my-4 break-inside-avoid">
+              <Card
+                title={blog.data.title}
+                description={blog.data.description}
+                link={blog.data.link}
+                image={blog.data.avatar}
+              >
+                <div class="text-sm">
+                  <p>
+                    <span>👉</span>
+                    <a href={blog.data.link}>主页</a>
+                    {blog.data.rss && <a href={blog.data.rss}>RSS</a>}
+                    {blog.data.avatar && <a href={blog.data.avatar}>头像</a>}
+                  </p>
+                  <Content />
+                </div>
+              </Card>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,25 @@
+---
+interface Props {
+  title: string;
+  link?: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, link, description, image } = Astro.props;
+---
+
+<div class="block rounded bg-gray-100 p-4 hover:shadow-md transition-shadow">
+  <div class="flex">
+    {
+      image && (
+        <img class="w-12 h-12 rounded-full mr-4" src={image} alt={title} />
+      )
+    }
+    <div>
+      <div><a class="font-bold no-underline" href={link}>{title}</a></div>
+      <div class="text-sm">{description}</div>
+    </div>
+  </div>
+  <slot />
+</div>

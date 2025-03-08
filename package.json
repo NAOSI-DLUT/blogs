@@ -1,0 +1,17 @@
+{
+  "name": "blogroll",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.4.2"
+  },
+  "devDependencies": {
+    "@unocss/reset": "66.1.0-beta.3",
+    "unocss": "66.1.0-beta.3"
+  }
+}
